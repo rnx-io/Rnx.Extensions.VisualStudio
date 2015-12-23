@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rnx.VisualStudioTaskRunner
+namespace Rnx.Extensions.VisualStudio
 {
     public class RnxProjectTaskFileFinder
     {

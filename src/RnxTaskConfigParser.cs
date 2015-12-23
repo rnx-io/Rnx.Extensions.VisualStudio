@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Rnx.VisualStudioTaskRunner
+namespace Rnx.Extensions.VisualStudio
 {
     public class RnxTaskConfigParser
     {

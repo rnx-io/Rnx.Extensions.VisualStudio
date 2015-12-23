@@ -17,8 +17,8 @@
     <ProjectGuid>{800EE4D4-77ED-40BC-A1F0-3FD241B95C65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rnx.VisualStudioTaskRunner</RootNamespace>
-    <AssemblyName>Rnx.VisualStudioTaskRunner</AssemblyName>
+    <RootNamespace>Rnx.Extensions.VisualStudio</RootNamespace>
+    <AssemblyName>Rnx.Extensions.VisualStudio</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>

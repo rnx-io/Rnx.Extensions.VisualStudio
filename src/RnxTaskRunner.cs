@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Rnx.VisualStudioTaskRunner
+namespace Rnx.Extensions.VisualStudio
 {
     [TaskRunnerExport(DEFAULT_CONFIG_FILENAME)]
     public class RnxTaskRunner : ITaskRunner
@@ -26,7 +26,7 @@ namespace Rnx.VisualStudioTaskRunner
         {
             _configParser = new RnxTaskConfigParser();
             _rnxProjectTaskFileFinder = new RnxProjectTaskFileFinder();
-            _icon = new BitmapImage(new Uri(@"pack://application:,,,/Rnx.VisualStudioTaskRunner;component/Resources/logo.png"));
+            _icon = new BitmapImage(new Uri(@"pack://application:,,,/Rnx.Extensions.VisualStudio;component/Resources/logo.png"));
         }
 
         public async Task<ITaskRunnerConfig> ParseConfig(ITaskRunnerCommandContext context, string configPath)

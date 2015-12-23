@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
-namespace Rnx.VisualStudioTaskRunner
+namespace Rnx.Extensions.VisualStudio
 {
     public class RnxTaskRunnerConfig : ITaskRunnerConfig
     {
