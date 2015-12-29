@@ -1,10 +1,5 @@
 ﻿using Microsoft.VisualStudio.TaskRunnerExplorer;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Media;
 
 namespace Rnx.Extensions.VisualStudio
@@ -46,6 +41,7 @@ namespace Rnx.Extensions.VisualStudio
 
         private string BindingsFilename(string configPath)
         {
+            configPath = configPath.Replace(".vs.json", ".cs");
             return configPath + ".xml";
         }
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="6f53ed10-a0dd-408a-835a-26add22418c0" Version="0.6" Language="en-US" Publisher="Daniel Kailer" />
+    <Identity Id="6f53ed10-a0dd-408a-835a-26add22418c0" Version="0.7" Language="en-US" Publisher="Daniel Kailer" />
     <DisplayName>Rnx Task Runner extension for Visual Studio</DisplayName>
     <Description xml:space="preserve">Allows you to run Rnx tasks from within Visual Studio via the Task Runner Explorer.</Description>
     <MoreInfo>https://github.com/rnx/Rnx.Extensions.VisualStudio</MoreInfo>
